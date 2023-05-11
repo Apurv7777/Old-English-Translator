@@ -13,6 +13,7 @@ function getURL(text){
 
 function errorHandler(error){
     console.log("Error :"+error)
+    alert("As mentioned in the documentation of the API , it can only handle 5 translations per hour , so if it's not working , try again Later !!")
 }
 
 function onClicked(){
