@@ -4,7 +4,8 @@ var txtInput = document.querySelector("#txtInput")
 
 var output = document.querySelector(".output")
 
-var serverUrl = "https://api.funtranslations.com/translate/minion.json"
+var serverUrl = "https://api.funtranslations.com/translate/oldenglish.json"
+
 
 
 function getURL(text){
@@ -13,7 +14,6 @@ function getURL(text){
 
 function errorHandler(error){
     console.log("Error :"+error)
-    alert("As mentioned in the documentation of the API , it can only handle 5 translations per hour , so if it's not working , try again Later !!")
 }
 
 function onClicked(){
