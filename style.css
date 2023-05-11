@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap');
+
+:root {
+    --bg-color:#171717;
+    --primary-color: #fbbf24;
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0rem;
+    
+}
+
+.header-combi {
+    text-align: center;
+    margin-top: 0rem;
+    display: block;
+    padding: 2rem;
+}
+
+.header{
+    text-align: center;
+    display: inline;
+    color: var(--primary-color);
+    font-family:'Bona Nova',serif ;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.me{
+    display: inline;
+    color: var(--primary-color);
+    font-family:'Bona Nova',serif ;
+    font-size: 2rem;
+}
+
+textarea{
+    border: 4px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#btn-translate {
+    display: block;
+    padding: .5rem;
+    margin: 2rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-color: #fbbf24;
+    border-radius: 0.5rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+.output {
+    border: 4px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: white;
+    height: 10vh;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+
+}
