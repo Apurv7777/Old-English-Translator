@@ -72,8 +72,7 @@ input{
 
 footer{
     text-align: center;
-    margin: 15rem 8rem;
-    text-align: bottom;
+    align-items:bottom;
     padding: 2rem;
     color: var(--primary-color);
 }
