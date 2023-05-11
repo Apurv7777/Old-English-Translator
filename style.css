@@ -71,6 +71,7 @@ input{
 }
 
 footer{
+    display:block;
     text-align: center;
     align-items:bottom;
     padding: 2rem;
